@@ -1,0 +1,34 @@
+.product {
+    height: 520px;
+    width: 40%;
+    min-height: 520px;
+    max-height: 250px;
+    border-radius: 30px;
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: #F6D4B2;
+    justify-self: right;
+
+}
+
+.product img {
+    height: 82%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+float: right;
+}
+
+.product h6 {
+    font-size: 36;
+    color: #FFFFFF;
+    margin: auto;
+     width: 90%;
+     padding-right: 20px;
+     text-align: right;
+     /* background-color: black; */
+     margin-top: 450px;
+     justify-self: right;
+}

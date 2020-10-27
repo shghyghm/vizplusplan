@@ -1,0 +1,610 @@
+@media screen and (max-width: 1023px){
+    body {
+        font-family: 'IRANSansWeb',sans-serif;
+        /* background-color: #d0c7c2 ; */
+        background-color: #F3F0F0;
+      }
+      html,
+      body {
+        scroll-behavior: smooth;
+      }
+      .headerr {
+          
+
+        display: flex;
+      }
+      .header2 {
+
+        margin: 0%;
+        font-family: 'IRANSans',sans-serif;
+          direction: rtl;
+          background-color:#1d1002 ;
+          align-items: center;
+          flex-wrap: wrap;
+      }
+      .box-a {
+          padding-top: 50px;
+          background-color: #F3F0F0;
+          border-top-left-radius: 110px;
+          border-top-right-radius: 110px;
+
+      }
+
+
+      .header2 h3 {
+          color: #F3F0F0;
+          padding-right: 8%;
+          padding-top: 20PX;
+          padding-bottom: 30PX;
+          font-size: 60px;
+      }
+
+      .site-nav2 ul {
+        padding-top: 50px;
+      }
+      
+      .site-nav2 li {
+        list-style: none;
+        text-align: left;
+      }
+      
+      .site-nav2 a {
+        color:#2C4873;
+   
+        background-color: #fff;
+        padding: 18px 40px;
+        text-align: left;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 35px;
+        text-decoration: none;
+        border-radius: 30px;
+        transition: all 0.5s ease;
+        margin-right: 180px;
+      }
+      
+      .site-nav2 a:hover {
+        background-color: #C4B093 ;
+        color: #fff;
+      }
+
+      #wrapper {
+        min-height:100%;
+        position:relative;
+    }
+      .footer2 {
+        margin: auto auto 0 auto;
+        align-items: center;
+          background-color: #1d1002;
+          display: flex;
+          direction:rtl;
+          border-top-left-radius: 80px;
+          border-top-right-radius: 80px;
+          width:100%;
+          position: fixed;
+          bottom:0;
+          left:0;
+
+      }
+      .akss2 {
+          padding-right: 10px;
+      }
+      .akss2 img {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    }
+    @media screen and (max-width: 960px){
+          .site-nav2 a {
+            margin-right: 240px;
+          }
+          .aaa img{
+            margin-left: 90px;
+        
+          }
+          .akss2 img {
+              padding-left: 90px;
+              padding-right: 90px;
+            }
+     }
+
+     @media screen and (max-width: 915px){
+        .site-nav2 a {
+            margin-right: 200px;
+     }
+     .akss2 img {
+        padding-left: 85px;
+        padding-right: 85px;
+      }
+      .akss2 {
+        padding-right: 25px;
+    }
+    .aaa img{
+      width: 80%;
+      margin-left: 80px;
+      padding-bottom: 20px;
+  
+    }
+
+     }
+     @media screen and (max-width: 875px){
+        .site-nav2 a {
+            margin-right: 190px;
+     }    
+      .akss2 {
+        padding-right: 20px;
+    }
+    .aaa img{
+      width: 80%;
+      margin-left: 20px;
+      padding-bottom: 20px;
+  
+    }
+    }
+    @media screen and (max-width: 851px){
+
+        .site-nav2 a {
+            margin-right: 150px;
+     } 
+     .akss2 {
+        padding-right: 0px;
+    }
+    .akss2 img {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+    }
+    @media screen and (max-width: 828px){
+        .site-nav2 a {
+            margin-right: 130px;
+     } 
+     .akss2 {
+        padding-right: 20px;
+    }
+    .akss2 img {
+      max-width: 40%;
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    }
+
+    @media screen and (max-width: 770px){
+        .site-nav2 a {
+            margin-right: 78px;
+     } 
+     .akss2 {
+        padding-right: 10px;
+    }
+    .akss2 img {
+      max-width: 40%;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    }
+    @media screen and (max-width: 710px){
+        .site-nav2 a {
+            margin-right: 95px;
+     } 
+     .header2 h3{
+       font-size: 48px;
+     }
+     .site-nav2 a {
+      padding: 13px 42px;
+      font-size: 30px; }
+     .akss2 {
+        padding-right: 2px;
+    }
+    .akss2 img {
+      max-width: 40%;
+      padding-left: 58px;
+      padding-right: 58px;
+    }
+    }
+    @media screen and (max-width: 680px){
+        .site-nav2 a {
+            margin-right: 70px;
+     } 
+     .header2 h3{
+      font-size: 48px;
+    }
+    .site-nav2 a {
+     padding: 13px 42px;
+     font-size: 30px; }
+     .akss2 {
+        padding-right: 5px;
+    }
+    .akss2 img {
+      max-width: 37%;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    }
+    @media screen and (max-width: 655px){
+
+        .site-nav2 a {
+            margin-right: 70px;
+     } 
+     .akss2 {
+        padding-right: 5px;
+    }
+    .akss2 img {
+      max-width: 30%;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    }
+    @media screen and (max-width: 624px){
+
+        .site-nav2 a {
+            margin-right: 60px;
+     } 
+     .header2 h3{
+      font-size: 45px;
+    }
+    .site-nav2 a {
+     padding: 13px 42px;
+     font-size: 30px; }
+     .akss2 {
+        padding-right: 5px;
+    }
+    .akss2 img {
+      max-width: 30%;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    }
+    @media screen and (max-width: 580px){
+      .site-nav2 a {
+        margin-right: 40px;
+ } 
+
+    @media screen and (max-width: 560px){
+        .header2 h3 {
+          font-size: 37px;
+        }
+        .site-nav2 a {
+          padding: 12px 40px;
+          font-size: 30px; 
+        }
+        .site-nav2 a {
+            margin-right: 30px;
+     } 
+     .site-nav2{
+       margin-top: 0px;
+     }
+     .akss2 {
+        padding-right: 5px;
+    }
+    .akss2 img {
+      max-width: 30%;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    }
+    @media screen and (max-width: 525px){
+        .site-nav2 a {
+            margin-right: 19px;
+     }
+     .header2 h3 {
+        font-size: 40px;
+    }
+    .akss2 img {
+        max-width: 40%;
+        padding-left: 27px;
+        padding-right: 27px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    
+
+    }
+
+    @media screen and (max-width: 490px){
+
+    .akss2 img {
+        max-width: 30%;
+      }
+      .header2 h3 {
+        font-size: 34px;
+    }
+
+
+    }
+    @media screen and (max-width: 478px){
+        .site-nav2 a {
+            margin-right: 30px;
+     }
+     .header2 h3 {
+        font-size: 40px;
+    }
+    .akss2 img {
+        max-width: 30%;
+        padding-left: 27px;
+        padding-right: 27px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    
+
+    }
+    @media screen and (max-width: 478px){
+        .site-nav2 a {
+            margin-right: 20px;
+     }
+     .header2 h3 {
+      font-size: 34px;
+      padding-right: 15px;
+         }
+
+  .site-nav2 a {
+      padding: 13px 39px;
+      font-size: 22px;
+        }
+    
+
+    }
+    @media screen and (max-width: 460px){
+     .header2 h3 {
+        font-size: 35px;
+    }
+    
+
+    }
+    @media screen and (max-width: 435px){
+        .header2 h3 {
+           font-size: 33px;
+       }
+       .site-nav2 a {
+        margin-right: 15px;
+ }
+ @media screen and (max-width: 435px){
+    .header2 h3 {
+       font-size: 30px;
+   }
+   
+       }
+
+       @media screen and (max-width: 402px){
+        .header2 h3 {
+           font-size: 27px;
+       }
+       .site-nav2 a {
+        margin-right: 8px;
+    }
+    .site-nav2 a {
+      padding: 10px 35px;
+      font-size: 22px;
+        }
+    
+       
+           }
+
+
+@media screen and (max-width: 383px){
+    .header2 h3 {
+        font-size: 26px;
+           }
+    .site-nav2 a {
+        margin-right: 9px;
+        }
+    .site-nav2 a {
+        padding: 10px 35px;
+        font-size: 22px;
+          }
+          .akss2 img {
+            max-width: 30%;
+            padding-left: 24px;
+            padding-right: 22px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+          .akss2 {
+            padding-right: 0px;
+        }
+        }
+
+@media screen and (max-width: 370px){
+    .header2 h3 {
+        font-size: 25px;
+        padding-right: 15px;
+           }
+    .site-nav2 a {
+        margin-right: 7px;
+        }
+    .site-nav2 a {
+        padding: 9px 33px;
+        font-size: 22px;
+          }
+          .akss2 img {
+            max-width: 30%;
+            padding-left: 24px;
+            padding-right: 22px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+          .akss2 {
+            padding-right: 0px;
+        }
+        }
+@media screen and (max-width: 352px){
+    .header2 h3 {
+        font-size: 24px;
+        padding-right: 15px;
+           }
+    .site-nav2 a {
+        margin-right: 6px;
+        }
+    .site-nav2 a {
+        padding: 9px 31px;
+        font-size: 20px;
+          }
+          .akss2 img {
+            max-width: 30%;
+            padding-left: 22px;
+            padding-right: 22px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+          .akss2 {
+            padding-right: 0px;
+        }
+        .site-nav2 ul {
+            padding-top: 35px;
+          }
+        }
+@media screen and (max-width: 332px){
+    .header2 h3 {
+        font-size: 22px;
+        padding-right: 13px;
+        padding-top: 12PX;
+        padding-bottom: 20PX;
+           }
+    .site-nav2 a {
+        margin-right: 4px;
+
+        }
+    .site-nav2 a {
+        padding: 8px 27px;
+        font-size: 19px;
+
+        
+          }
+          .akss2 img {
+            max-width: 30%;
+            padding-left: 22px;
+            padding-right: 22px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+          .akss2 {
+            padding-right: 0px;
+        }
+        }
+
+@media screen and (max-width: 308px){
+    .header2 h3 {
+        font-size: 20px;
+        padding-right: 12px;
+        padding-top: 10PX;
+        padding-bottom: 18PX;
+           }
+    .site-nav2 a {
+        margin-right: 0px;
+
+        }
+    .site-nav2 a {
+        padding: 7px 25px;
+        font-size: 18px;
+
+        
+          }
+          .akss2 img {
+            max-width: 30%;
+            padding-left: 21px;
+            padding-right: 21px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+          .akss2 {
+            padding-right: 0px;
+        }
+        .site-nav2 ul {
+            padding-top: 30px;
+          }
+        }
+@media screen and (max-width: 288px){
+    .header2 h3 {
+        font-size: 18px;
+        padding-right: 12px;
+        padding-top: 10PX;
+        padding-bottom: 17PX;
+           }
+    .site-nav2 a {
+        margin-right: 0px;
+
+        }
+    .site-nav2 a {
+        padding: 7px 24px;
+        font-size: 15px;
+
+        
+          }
+          .akss2 img {
+            max-width: 30%;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+          .akss2 {
+            padding-right: 0px;
+        }
+        .site-nav2 ul {
+            padding-top: 30px;
+          }
+        }
+@media screen and (max-width: 273px){
+    .header2 h3 {
+        font-size: 18px;
+        padding-right: 12px;
+        padding-top: 10PX;
+        padding-bottom: 17PX;
+           }
+    .site-nav2 a {
+        margin-right: 0px;
+
+        }
+    .site-nav2 a {
+        padding: 7px 22px;
+        font-size: 16px;
+
+        
+          }
+          .akss2 img {
+            max-width: 30%;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+          .akss2 {
+            padding-right: 0px;
+        }
+        .site-nav2 ul {
+            padding-top: 28px;
+          }
+        }
+@media screen and (max-width: 260px){
+    .header2 h3 {
+        font-size: 17px;
+        padding-right: 10px;
+        padding-top: 9PX;
+        padding-bottom: 15PX;
+           }
+    .site-nav2 a {
+        margin-right: 0px;
+
+        }
+    .site-nav2 a {
+        padding: 7px 20px;
+        font-size: 14px;
+
+        
+          }
+          .akss2 img {
+            max-width: 30%;
+            padding-left: 18px;
+            padding-right: 18px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+          }
+          .akss2 {
+            padding-right: 0px;
+        }
+        .site-nav2 ul {
+            padding-top: 25px;
+          }
+        }

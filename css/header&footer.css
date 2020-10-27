@@ -1,0 +1,223 @@
+.r h3{
+    font-size: 0%;
+}
+
+.header {
+    font-family: 'IRANSans',sans-serif;
+      margin-top: 25px;
+      margin-right: 20px;
+      margin-left: 20px;
+      direction: rtl;
+      box-shadow: 0px 2px 30px rgba(0, 0, 0,0.2);
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+      background-color: #fff;
+  }
+  
+  
+  .header h3 {
+    /* font-family: 'IRANSansWeb',sans-serif; */
+      color: #503916;
+      font-size: 160%;
+  }
+  html , body{
+      scroll-behavior: smooth;
+  }
+  .header{
+  
+  
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  
+  div.header img {
+      max-width: 5%;
+      margin-left: 20px;
+      margin-right: 10px;
+  
+      height: auto;
+      position: relative;
+    }
+  
+  .menu li{
+      list-style-type: none;
+      margin: 12px;
+      background-color: #C4B093 ;
+      padding: 10px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      align-items: center;
+  }
+  .menu li:hover{
+      color: #f5f5f5;
+      box-shadow: 0px 0px 20px rgb(119, 119, 119);
+      align-items: center;
+  }
+  .menu ul{
+      display: flex;
+      align-items: center;
+      margin-left: 200px;
+      margin-right: 240px;
+  }
+  
+  
+  
+  /* Site Navigation */
+    .site-nav ul {
+      padding: 0;
+    }
+    
+    .site-nav li {
+      list-style: none;
+      text-align: left;
+    }
+  
+  
+    
+    .site-nav a {
+      color: #000;
+      padding: 8px 35px;
+      text-align: left;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      text-decoration: none;
+      border: 2px solid #C4B093  ;
+      border-radius: 10px;
+      transition: all 0.5s ease;
+      margin-right: 250px;
+    }
+    
+    .site-nav a:hover {
+      background-color: #C4B093 ;
+      color: #fff;
+    }
+
+@font-face {
+    font-family: "baran" ;
+    src: url("fonts/EsfehanBold.eot") format("eot"),
+        url("fonts/EsfehanBold.woff") format("woff"),
+        url("fonts/EsfehanBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+  .ww{
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #8C795E;
+    direction:rtl;
+    color:#f7f0f0
+  }
+  
+  .akss img {
+    max-width: 5%;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .akss ul{
+    display: flex;
+    margin-right: 430px;
+  }
+  footer li{
+    list-style-type: none;
+  }
+  .ww{
+    display: block;
+  }
+  
+  .d li{
+    list-style-type: none;
+    margin: 18px;
+    background-color: #d0c7c2  ;
+    color:#5E472C ;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-items: center;
+  }
+  .d li:hover{
+    color:#d0c7c2  ;
+    background-color: #554125  ;
+    box-shadow: 0px 0px 20px #d0c7c2 ;
+    align-items: center;
+  }
+  .d ul{
+    display: flex;
+    align-items: center;
+    margin-right: 380px;
+  }
+  .c li{
+    list-style-type: none;
+    margin: 30px;
+    background-color: #554125 ;
+    color: #d0c7c2 ;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    align-items: center;
+  }
+  .c ul{
+    display: flex;
+    align-items: center;
+    margin-right: 330px;
+  
+  }
+
+@media screen and (max-width: 1023px) {
+
+    .header {
+        display: none;
+
+    }
+    .header h3 {
+        display: none;
+    }
+    .header img {
+        display: none;
+      }
+    .menu li{
+        display: none;
+
+    }
+    .menu li:hover{
+        display: none;
+    }
+    .site-nav a {
+        display: none;
+
+      }
+        
+    .ww{
+        display: none;
+    } 
+    .akss img {
+        display: none;
+    }
+    footer li{
+        display: none;
+    }
+    
+    .d li{
+        display: none;
+
+    }
+    .d li:hover{
+        display: none;
+
+    }
+    .c li{
+        display: none;
+ 
+    }
+
+
+
+
+    }

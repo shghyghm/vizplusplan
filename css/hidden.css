@@ -1,0 +1,72 @@
+
+@media screen and (max-width: 1023px){ 
+  div.category { display: none;}
+  
+  div.category img { display: none; } 
+
+  .aboutusblock { display: none;}
+
+  .aboutusblock .imagediv { display: none; }
+
+  .aboutusblock .abouttextblick { display: none;}
+
+  .abouttextblick p {  display: none;}
+
+  .aboutimg {  display: none;}
+
+  .line{  display: none;}
+
+  .line2{  display: none;}
+
+  .imagediv {  display: none;}
+
+  .abouttextblick {  display: none;} 
+
+  .div_origin  {  display: none;}
+
+  div.center img {  display: none;}
+
+  .feathers1 p {  display: none;} 
+
+  .center {  display: none;}
+
+  .div_origin {  display: none;}
+
+  .products {  display: none;}
+
+  .products h3 {  display: none;}
+
+  .container-fluid {  display: none;}
+
+  div.col-xs-12.col-sm-4.col-md-2 {  display: none;}
+
+  div.col-xs-12.col-sm-6.col-md-2 {  display: none;}
+
+.row img{  display: none; }
+
+.row h4 {  display: none; }
+
+.controller {  display: none; }
+
+.bot {  display: none; }
+
+.cont img {   display: none; }
+
+.cont p {  display: none; }
+
+.cont p.botdiscrip {  display: none; } 
+
+.cont {  display: none; }
+}
+
+@media screen and (min-width: 1023px){
+  .header2 {
+    display: none;
+  }
+  .footer2 {
+    display: none;
+  }
+.bodyy {
+  display: none;
+}
+}

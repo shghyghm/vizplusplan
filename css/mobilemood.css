@@ -1,0 +1,34 @@
+
+@media screen and (max-width: 1023px){
+
+  .slide1 img{
+    width: 96%;
+    margin-bottom: 100px;
+    margin-left: 20px;
+
+
+  }
+
+  .slide2 img{
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .group4 img{
+    width: 95%;
+    margin-left: 25px;
+    margin-bottom: 130px;
+  }
+  
+  .aaa img{
+    width: 80%;
+    margin-left: 100px;
+    padding-bottom: 20px;
+
+  }
+  .slide3{
+    margin-bottom: 150px;
+  }
+     }
+
+ 

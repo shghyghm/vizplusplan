@@ -1,0 +1,152 @@
+body{
+    background-color: #d0c7c2 ;
+    font-family: 'PT Sans', Arial, sans-serif;
+}
+.akss img{
+    display: block;
+    max-width: 75%;
+    margin: auto;
+    padding-top: 30px;
+    border-radius: 80px;
+
+}
+.box{
+    display: flex;
+    direction: rtl;
+}
+.box1{
+    background-color:#8C795E;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+}
+.box1 img{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+.box1 h2{
+    margin: 30px;
+    text-align: center;
+    font-weight: 30;
+}
+
+.box2{
+    background-color: #554125;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    border-radius: 50px;
+
+}
+
+.box2 h2{
+    color: #d0c7c2;
+    margin: 30px;
+    text-align: center;
+    font-weight: 10;
+ 
+}
+.box2 h1{
+    color: #d0c7c2;
+    margin: 30px;
+    text-align: center;
+    font-weight: 10;
+    padding-top: 30px;
+}
+
+.a1{
+
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px ;
+    direction: rtl;
+    
+}
+.a1 img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 30px;
+}
+.h h1{
+    font-size: 25px;
+    font-weight: 30;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.h {
+    background-color: #fff;
+    margin-bottom: 100px;
+    border-radius: 80px;
+    border: 3px solid #241670  ;
+
+}
+
+table {
+    display: block;
+    margin-right: 430px;
+    border-collapse: collapse;
+    direction: rtl;
+    padding-bottom: 100px;
+  }
+  
+  .plan {
+      width: 20%;
+  }
+  
+  .forosh,
+  .balance {
+    width: 40%;
+  }
+  
+  table th {
+    text-align: center;
+    background-color: #554125;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #554125;
+    padding: 20px;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+  table tbody tr:nth-child(even) td {
+    background-color: #e5e9dc;
+  }
+  
+  table.grocery-list tr :nth-child(2),
+  table.grocery-list tr :nth-child(3) {
+    text-align: center;
+  }
+  
+  table tbody tr:hover td {
+    background-color: #e6dce9;
+  }
+  
+  @media screen and (max-width: 1023px){
+      .header {
+          display: none;
+      }
+      .akss{
+          display: none;
+      }
+      .box {
+          display: none;
+      }
+      .a1{
+          display: none;
+      }
+      .grocery-list{
+          display: none;
+      }
+    }

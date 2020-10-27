@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('./fonts/woff/IRANSans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'IRANSansWeb',sans-serif;
+  font-size: 15px;
+  /* background-color: #d0c7c2 ; */
+  background-color: #F9F5F2;
+
+}
+
+
+
+  div.category {
+    margin: auto;
+    height: 170px;
+    padding-right: 2.5%;
+  
+  }
+  
+  div.category img {
+    margin: 20px;
+    float: right;
+    max-width: 28%;
+    margin-left: 40px;
+    margin-right: 20px;
+
+    height: auto;
+    position: relative;
+  
+  }
+
+  .aboutusblock {
+    margin: 20px;
+    /* float: right; */
+    padding: 20px;
+    margin-top: 120px;
+    /* max-width: 28%; */
+    margin-left: 130px;
+    background-color: white;
+    margin-right: 200px;
+    border-radius: 20px;
+    height: 380px;
+    position: relative;
+    width: 80%;
+
+  }
+
+ 
+
+  .aboutusblock .imagediv {
+
+    float: right;
+    max-width: 25%;
+    /* margin-left: 40px;
+    margin-right: 20px; */
+    text-align: right;
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+    
+
+  }
+
+  .aboutusblock .abouttextblick {
+
+    float: right;
+    max-width: 40%;
+    /* margin-left: 40px;
+    margin-right: 20px; */
+    text-align: right;
+    align-content: flex-start;
+    height: auto;
+    position: relative;
+    /* background-color: rgb(58, 58, 17); */
+    
+
+  }
+
+  .abouttextblick p {
+    max-width: 400px;
+    text-align: right;
+    /* float: right; */
+    margin-top: 30px;
+
+    margin-right: 0px;
+  }
+
+  .aboutimg {
+    /* max-width: 80%;
+    max-height:; */
+    height: 300px;
+    /* width: 50%; */
+  }
+
+  .line{
+    width: 400px;
+    margin-right: 15px;
+    margin-left: auto;
+    height: 8px;
+    border-bottom: 1.8px solid #E0CBAC;
+    /* position: absolute; */
+    }
+
+    .line2{
+      width: 300px;
+      margin-right: 0px;
+      margin-left: auto;
+      height: 8px;
+      border-bottom: 1.8px solid #E0CBAC;
+      /* position: absolute; */
+      }
+
+  .imagediv {
+  /* background-color : darkblue; */
+  margin-right: 599px;
+  margin-right: 150px;
+
+  /* padding: 40px; */
+
+  }
+
+  .abouttextblick {
+    margin-right: 100px;
+  }
+
+
+
+
+  .div_origin  {
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 48; */
+    float: left;
+    margin-left: 90px;
+    margin-right: 20px;
+    /* background-color: white; */
+    position: relative;
+    height: fit-content;
+    /* width: 150px; */
+  
+  }
+
+  div.center img {
+    max-width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .feathers1 p {
+    text-align: center;
+    background-color: white;
+    border-radius: 50px; 
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 13%;
+    padding-top: 5%;
+  }
+
+
+  /* {
+    background-color: yellow;
+    align-content: center;
+    al
+  } */
+
+
+
+  .center {
+    /* background-color: green; */
+    height: 190px;
+    margin: auto;
+    width: 90%;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+    margin-top: 80px;
+    /* background-color: yellow; */
+  }
+
+  .div_origin {
+    align-content: center;
+    
+  }
+
+
+  /* products */
+
+  .products {
+    background-color: #F2DFCE;
+    height: 500px;
+    border-radius: 20px;
+    width: 82%;
+    margin: auto;
+    padding: 45px;
+    margin-top: 40px;
+    text-align: right;
+    padding-right: 40px;
+    /* margin-bottom: 20px; */
+  }
+
+  .products h3 {
+    color: #6E6969;
+  }
+
+  .container-fluid {
+    margin-top: 80px;
+  }
+
+  div.col-xs-12.col-sm-4.col-md-2 {
+    /* background-color: yellow; */
+    height: 300px;
+    width: 165px;
+    overflow: hidden;
+
+  }
+
+  div.col-xs-12 col-sm-6 col-md-2 {
+    /* background-color: yellow; */
+    height: 300px;
+    width: 165px;
+    overflow: hidden;
+
+  }
+
+
+
+
+
+  .row img{
+        /* width: 1000px; */
+        height: 60%;
+        /* margin: -75px 0 0 -100px; */
+     margin: auto;
+    width: 120%;
+    border-radius: 15px;
+  }
+
+  .row h4 {
+    font-family: 'IRANSansWeb',sans-serif;
+
+  }
+
+  .controller {
+    height: 20px;
+    width: 20px;
+    max-width: 40px;
+    max-height: 65px;
+  }
+
+  .bot {
+    background-color: #322306;
+    height: 400px;
+  }
+
+
+  /* .center {
+    background-color: green;
+    height: 400px;
+    margin: auto;
+    width: 80%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: yellow;
+  } */
+
+  .cont img {
+    width: 650px;
+    height: 340px;
+    margin: 25px;
+    /* background-color: whitesmoke; */
+
+  }
+  .cont p {
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+    text-shadow: white;
+  }
+
+  .cont p.botdiscrip {
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(139, 136, 136);
+    text-shadow: white;
+  }
+
+  .cont {
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 48; */
+    float: right;
+    margin-right: 10px;
+  }
+
+
+  
